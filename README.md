@@ -13,8 +13,11 @@
   
   Lab setup via Ahmed Ali (Udemy)
 
-# EVE-NG
+# EVE-NG Creation of Port-Channel on Switch + Fortigate, IP Setup on VPC and Kali Linux to access Fortigate GUI. 
+My Setup / Steps (No current VLAN Segmentation but this is subject to be issued) 
+
+Basic Setup of Switch / Fortigate
 
 
-
+<img width="1515" height="781" alt="image" src="https://github.com/user-attachments/assets/b6193b87-dbf4-4128-afce-79946cdead16" />
 
