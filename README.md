@@ -19,6 +19,29 @@ My Setup / Steps (No current VLAN Segmentation but this is subject to be issued)
 <img width="1812" height="535" alt="image" src="https://github.com/user-attachments/assets/0d86f355-a019-4995-9c25-c1a644fabb48" />
 
 
+# WinSCP File Transferring Setup
+
+This allows you to upload virtioa.qcow2 files and ISO's to EVE-NG
+
+Install WinSCP via: https://winscp.net/eng/download.php
+
+Setup a New Site 
+
+File Protocol: SFTP
+Hostname: "The IP of your EVE-NG VM, If set to NAT this will likely be a 192.168 address
+
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/e90a3c6a-9426-4070-86a3-dbcdcc888739" />
+
+Username: "The name you setup on startup of the eve-ng vm"
+
+Password: "The password you setup on startup of the eve-ng vm"
+
+Default Username and Password is: 
+
+Username: Root
+
+Password: eve
+
 # Installation of Windows Node
 
 https://www.youtube.com/watch?v=sxrBSTFQynQ&t=93s
