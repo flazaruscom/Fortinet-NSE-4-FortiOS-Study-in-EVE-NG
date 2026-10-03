@@ -1,5 +1,5 @@
 # Fortinet-NSE-4-FortiOS-Study-in-EVE-NG
-  Documentation on EVE-NG setup in VMware Workstation for Cisco CLl Switch/FortiGate/FortiManager/FortiAnalyzer/Kali-Linux Nodes
+  Documentation on EVE-NG setup in VMware Workstation for Cisco CLl Switch/FortiGate/FortiManager/FortiAnalyzer/Windows-11/Kali-Linux Nodes
 
 # Reasoning for Repo
   Creation of adding virtioa.qcow2 QEMU images into directories for accessing images as nodes in EVE-NG
@@ -17,3 +17,22 @@
 My Setup / Steps (No current VLAN Segmentation but this is subject to be issued)
 
 <img width="1812" height="535" alt="image" src="https://github.com/user-attachments/assets/0d86f355-a019-4995-9c25-c1a644fabb48" />
+
+
+# Installation of Windows Node
+
+https://www.youtube.com/watch?v=sxrBSTFQynQ&t=93s
+
+Credit to Automation Archive
+
+Fantastic Video on setup of Windows 11 Installation into EVE-NG with correct commands on installation / setup as QEMU in Eve-NG. 
+
+# Installation of Kali-Linux Node
+
+https://www.kali.org/get-kali/#kali-virtual-machines
+
+The QEMU installation is as simple as adding into a file path under: /opt/unetlab/addons/qemu/linux-Kali-2025.c1 and running the node. 
+
+# Installation of FortiOS / Cisco Switch Node
+
+These images require licensing, creation of accounts in Fortigate so please review online the installation, or use Ahmed Ali's Udemy Course Part1 on assistance of Installation like I have. 
