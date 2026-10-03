@@ -1,0 +1,17 @@
+Configuring NTP on CLI on a Fortigate (Version v7.0.5): 
+
+As the Option to set what the NTP server is is greyed out and can only be set via CLI, the version v7.0.5 is the running script, newer versions omit (set interface-select-method specify) and you can set the interface straight away. 
+The IP 10.0.0.17 is just an example you will set this to what the actual IP is of the, for example, Windows Server that has the NTP role enabled, and what interface eventually connects to the switch the NTP is connected to. 
+
+config system ntp
+    set ntpsync enable
+    set type custom
+    set syncinterval 60
+    config ntpserver
+        edit 1
+            set server "10.0.0.17"
+            set interface-select-method specify
+            set interface "port1"
+        next
+    end
+end   
