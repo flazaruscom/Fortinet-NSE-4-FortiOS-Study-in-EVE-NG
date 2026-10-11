@@ -1,7 +1,9 @@
-Configuring NTP on CLI on a Fortigate (Version v7.0.5): 
+# Configuring NTP on a FortiGate (FortiOS 7.0.5)
 
-As the Option to set what the NTP server is is greyed out and can only be set via CLI, the version v7.0.5 is the running script, newer versions omit (set interface-select-method specify) and you can set the interface straight away. 
-The IP 10.0.0.17 is just an example you will set this to what the actual IP is of the, for example, Windows Server that has the NTP role enabled, and what interface eventually connects to the switch the NTP is connected to. 
+On FortiOS 7.0.5 the NTP server setting is greyed out in the GUI, so it has to be set from the CLI. Newer versions don't need the `set interface-select-method specify` line, and you can set the interface straight away.
+
+"10.0.0.17" is an example. Replace it with the IP of your NTP server (for example, a Windows Server with the NTP role), and set the interface to the FortiGate port that connects towards it.
+
 
 config system ntp
     set ntpsync enable
@@ -14,4 +16,4 @@ config system ntp
             set interface "port1"
         next
     end
-end   
+end
