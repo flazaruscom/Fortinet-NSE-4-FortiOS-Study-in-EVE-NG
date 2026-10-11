@@ -19,7 +19,7 @@ A virtual lab I built in EVE-NG (running on VMware Workstation) to study for For
 
 ## Documentation
 - [Initial Setup](Initial%20Setup.md): lab topology, port-channel build, uploading images with WinSCP, and node installs
-- [FortiGate NTP configuration](FortiGate-Configure-NTP.md): CLI steps for FortiOS 7.0.5
+- [FortiGate NTP configuration](FortiGate-Configure-NTP): CLI steps for FortiOS 7.0.5
 
 ## Why this repo
 - Documents how I added QEMU images (virtioa.qcow2) to EVE-NG so they run as nodes
