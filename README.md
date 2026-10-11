@@ -11,25 +11,22 @@ A virtual lab I built in EVE-NG (running on VMware Workstation) to study for For
 - **Windows 11** and **Kali Linux** nodes, plus a VPC for basic connectivity testing
 
 ## What I've practised so far
-  Adding FortiGate, FortiManager, FortiAnalyzer, Cisco and other QEMU images to EVE-NG
-  Building a switch-to-FortiGate port-channel
-  IP addressing and connectivity testing between nodes
-  Accessing and managing the FortiGate from Kali Linux
-  Configuring NTP on the FortiGate (see `FortiGate-Configure-NTP`)
+- Adding FortiGate, FortiManager, FortiAnalyzer, Cisco and other QEMU images to EVE-NG
+- Building a switch-to-FortiGate port-channel
+- IP addressing and connectivity testing between nodes
+- Accessing and managing the FortiGate from Kali Linux
+- Configuring NTP on the FortiGate
 
-# Reasoning for Repo
-  Creation of adding virtioa.qcow2 QEMU images into directories for accessing images as nodes in EVE-NG
-  
-Documentation of commands to setup PC Nodes, Cisco CLI Switches and FortiOS.
-  
-Providing context of my study, showcasing how I have set this up, what commands I have used to access Fortigate nodes on Kali-Linux nodes inside EVE-NG.
+## Documentation
+- [Initial Setup](Initial%20Setup.md): lab topology, port-channel build, uploading images with WinSCP, and node installs
+- [FortiGate NTP configuration](FortiGate-Configure-NTP.md): CLI steps for FortiOS 7.0.5
 
-# Inspiration 
-<img width="856" height="419" alt="Screenshot 2026-09-30 212856" src="https://github.com/user-attachments/assets/164860ae-ecbe-4ff2-a1b3-c4de2dd74685" />
-  
-  Lab setup via Ahmed Ali (Udemy)
+## Why this repo
+- Documents how I added QEMU images (virtioa.qcow2) to EVE-NG so they run as nodes
+- Records the commands I used to set up PC nodes, Cisco switches and FortiOS
+- Shows how I access and manage FortiGate nodes from Kali Linux inside EVE-NG
 
-  ## Next steps
+## Next steps
 - [x] Core lab built: FortiGate, Cisco switch, Kali, Windows 11 and VPC nodes
 - [x] NTP configured on the FortiGate
 - [ ] VLAN segmentation on the switch and FortiGate
@@ -38,3 +35,8 @@ Providing context of my study, showcasing how I have set this up, what commands 
 - [ ] Send FortiGate logs to FortiAnalyzer
 - [ ] Remote-access VPN with FortiClient from the Windows 11 node
 - [ ] Labelled topology diagram with the lab IP plan
+
+## Credits
+Lab design based on Ahmed Ali's FortiGate course on Udemy.
+
+<img width="856" height="419" alt="Reference lab setup from Ahmed Ali's Udemy course" src="https://github.com/user-attachments/assets/164860ae-ecbe-4ff2-a1b3-c4de2dd74685" />
