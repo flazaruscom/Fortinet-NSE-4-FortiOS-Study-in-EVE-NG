@@ -47,3 +47,9 @@ The QEMU installation is as simple as adding into a file path under: /opt/unetla
 # Installation of FortiOS / Cisco Switch Node
 
 These images require licensing, creation of accounts in Fortigate so please review online the installation, or use Ahmed Ali's Udemy Course Part1 on assistance of Installation like I have. 
+
+
+# Commands + Setup of Nodes
+<img width="1187" height="372" alt="image" src="https://github.com/user-attachments/assets/3d0ba007-6f05-4982-94a8-4ca769837122" />
+
+<img width="1290" height="272" alt="image" src="https://github.com/user-attachments/assets/73432cd3-a04a-4015-9525-16143540ddde" />
